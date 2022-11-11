@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.about-us {
+  margin-top:-4rem ;
+  min-height: 100vh;
+  background: linear-gradient(rgba(7, 6, 6, 0.767), rgba(31, 29, 29, 0.616)), url("/assets/img/home/buliding.jpg")  center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-us-title{
+  font-family: 'Catamaran', sans-serif;
+  text-align: center;
+  color: red;
+  font-size: 3rem;
+  font-weight: 800;
+  padding-top: 8rem;
+}
+.about-us-paragraph{
+  font-family: 'Catamaran', sans-serif;
+  text-align: justify;
+  margin: 2rem 1rem 0 1rem;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 600;
+  padding: 0 10% 3% 10%;
+}
+.about-us-video{
+  min-height: 70vh;
+  background: linear-gradient(rgba(7, 6, 6, 0.767), rgba(31, 29, 29, 0.616));
+}
+.about-us-video iframe{
+  margin-top: 3rem;
+}
